@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 6vh;
+  height: 4vh;
   background-color: #ff675c;
 }
 
@@ -13,6 +13,24 @@
 
 .socialItem {
   display: inline-block;
-  padding: 10px;
   text-align: center;
+}
+
+.socialBar svg {
+  height: 1.5rem;
+  margin: 0 0.5rem;
+  margin-top: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.socialBar svg:hover {
+  transform: scale(1.1);
+}
+
+.faPrimary {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.faPrimary:hover {
+  color: black;
 }

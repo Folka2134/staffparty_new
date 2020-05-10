@@ -5,17 +5,40 @@
 
 .gridContainer {
   height: 70vh;
+  display: grid;
+
+  grid-template-areas:
+    "a, b"
+    "c, d";
+  grid-template-rows: repeat(2, 50%);
+  grid-template-columns: 50% 50%;
   background-color: slateblue;
+}
+
+.gridItem > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.griditem:nth-child(1) {
+  grid-area: a;
+}
+.griditem:nth-child(2) {
+  grid-area: b;
+}
+.griditem:nth-child(3) {
+  grid-area: c;
+}
+.griditem:nth-child(4) {
+  grid-area: d;
 }
 
 .headerText {
   font-family: testingFonts;
   font-size: calc(50px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  color: aliceblue;
+  color: white;
   /* text-align: center; */
   position: absolute;
-  top: 6.159em;
-  bottom: 7.698em;
-  left: 11.97em;
-  right: 11.97em;
+  align-items: center;
 }
