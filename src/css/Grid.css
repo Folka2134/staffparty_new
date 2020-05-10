@@ -1,0 +1,21 @@
+@font-face {
+  font-family: testingFonts;
+  src: url(../fonts/Broken-Detroit.ttf);
+}
+
+.gridContainer {
+  height: 70vh;
+  background-color: slateblue;
+}
+
+.headerText {
+  font-family: testingFonts;
+  font-size: calc(50px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: aliceblue;
+  /* text-align: center; */
+  position: absolute;
+  top: 6.159em;
+  bottom: 7.698em;
+  left: 11.97em;
+  right: 11.97em;
+}

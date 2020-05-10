@@ -1,0 +1,39 @@
+@font-face {
+  font-family: navFont;
+  src: url(../fonts/coolcon.ttf);
+}
+
+.navBar {
+  display: flex;
+  height: 4vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffaea8;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  display: inline-block;
+  padding-right: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: navFont;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.navItem:last-child {
+  padding: 0;
+}
+
+.navItem:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+body {
+  text-align: center;
+}

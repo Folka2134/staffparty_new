@@ -1,0 +1,28 @@
+@font-face {
+  font-family: testingFonts;
+  src: url(../fonts/Broken-Detroit.ttf);
+}
+
+.headerContainer {
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  margin: 0;
+  background-color: #ff675c;
+  /* border: black solid;
+  border-width: 0 1px 1px 1px; */
+}
+
+.headerText {
+  font-family: testingFonts;
+  font-size: calc(50px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: aliceblue;
+  text-align: center;
+}
+
+.headerText:hover {
+  color: cornflowerblue;
+  background-color: white;
+}
