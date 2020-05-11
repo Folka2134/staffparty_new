@@ -9,21 +9,21 @@ import StaffParty4 from "../imgs/carousel/kingned4.jpg";
 const Grid = () => {
   return (
     <Fragment>
-      <div>
-        <div className="gridContainer">
-          <div className="gridItem">
-            <img alt="staffparty1" src={StaffParty1} />
-          </div>
-          <div className="gridItem">
-            <img alt="staffparty2" src={StaffParty2} />
-          </div>
-          <div className="gridItem">
-            <img alt="staffparty3" src={StaffParty3} />
-          </div>
-          <div className="gridItem">
-            <img alt="staffparty4" src={StaffParty4} />
-          </div>
-          <span className="headerText">STAFF PARTY</span>
+      <div className="gridContainer">
+        <span className="headerText">
+          <p className="text">STAFF PARTY</p>
+        </span>
+        <div className="gridItem">
+          <img alt="staffparty1" src={StaffParty1} />
+        </div>
+        <div className="gridItem">
+          <img alt="staffparty2" src={StaffParty2} />
+        </div>
+        <div className="gridItem">
+          <img alt="staffparty3" src={StaffParty3} />
+        </div>
+        <div className="gridItem">
+          <img alt="staffparty4" src={StaffParty4} />
         </div>
       </div>
     </Fragment>

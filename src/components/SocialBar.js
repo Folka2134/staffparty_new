@@ -55,7 +55,7 @@ const SocialBar = () => {
             </a>
           </div>
         </li>
-        <li className="socialItem">
+        {/* <li className="socialItem">
           <div className="socialLink">
             <a
               href="https://open.spotify.com/artist/6JAxkHzLqyjIGVifafbUyd?si=GYwq1RqIRLevVQNynBkaZA"
@@ -79,7 +79,7 @@ const SocialBar = () => {
               </svg>
             </a>
           </div>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

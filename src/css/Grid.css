@@ -1,18 +1,41 @@
 @font-face {
   font-family: testingFonts;
-  src: url(../fonts/Broken-Detroit.ttf);
+  /* src: url(../fonts/coolcon.ttf); */
+  /* src: url(../fonts/Broken-Detroit.ttf); */
+  src: url(../fonts/Blacklisted.ttf);
 }
 
 .gridContainer {
   height: 70vh;
   display: grid;
+  position: relative;
 
   grid-template-areas:
     "a, b"
     "c, d";
   grid-template-rows: repeat(2, 50%);
   grid-template-columns: 50% 50%;
-  background-color: slateblue;
+  /* background-color: slateblue; */
+  text-align: center;
+
+  --stagger-delay: 900ms;
+}
+
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.gridItem {
+  display: grid;
+  /* animation: cardEntrance 700ms ease-out; */
+  animation-fill-mode: backwards;
 }
 
 .gridItem > img {
@@ -23,22 +46,88 @@
 
 .griditem:nth-child(1) {
   grid-area: a;
+  animation-delay: calc(1 * var(--stagger-delay));
 }
 .griditem:nth-child(2) {
   grid-area: b;
+  animation-delay: calc(2 * var(--stagger-delay));
 }
 .griditem:nth-child(3) {
   grid-area: c;
+  animation-delay: calc(3 * var(--stagger-delay));
 }
 .griditem:nth-child(4) {
   grid-area: d;
+  animation-delay: calc(4 * var(--stagger-delay));
 }
 
-.headerText {
+/* .headerText {
   font-family: testingFonts;
   font-size: calc(50px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  width: 100%;
   color: white;
-  /* text-align: center; */
   position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-top: 20%;
+  margin-bottom: auto;
+  transform: translate(-50%, -50%);
+} */
+
+.headerText {
+  display: flex;
+  height: 70vh;
+  width: 90vw;
+  margin-left: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  justify-content: center;
   align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text {
+  /* color: white; */
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  font-family: testingFonts;
+  font-size: calc(65px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  border-right: 0 white solid;
+  border-left: 0 solid white;
+  border-top: 0 solid white;
+  /* border-bottom: 5px solid white; */
+  /* border-radius: 45px; */
+  padding-left: 20px;
+  padding-right: 15px;
+  margin-left: 20px;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
 }
