@@ -1,3 +1,7 @@
+a {
+  outline: 0;
+}
+
 .socialBar {
   display: flex;
   justify-content: center;

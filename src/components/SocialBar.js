@@ -8,7 +8,7 @@ const SocialBar = () => {
         <li className="socialItem">
           <div className="socialLink">
             <a
-              href="https://www.instagram.com/kingshifiuk/"
+              href="https://www.instagram.com/staffpartyband/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ const SocialBar = () => {
         <li className="socialItem">
           <div className="socialLink">
             <a
-              href="https://www.facebook.com/kingshifi/"
+              href="https://www.facebook.com/staffpartyband/"
               target="_blank"
               rel="noopener noreferrer"
             >
