@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f20c67f0039fe9f69efac68b53d52075",
+    "revision": "c8e660a47d4d334b26b2d25dcb0948cb",
     "url": "/staffparty_new/index.html"
   },
   {
-    "revision": "85fc9f4c35e60fe54a28",
-    "url": "/staffparty_new/static/css/main.9503a9dd.chunk.css"
+    "revision": "6de387f846f70c797b41",
+    "url": "/staffparty_new/static/css/main.5e1c76d9.chunk.css"
   },
   {
     "revision": "f27b489a604d083985ae",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/staffparty_new/static/js/2.5b591e67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85fc9f4c35e60fe54a28",
-    "url": "/staffparty_new/static/js/main.d8c72335.chunk.js"
+    "revision": "6de387f846f70c797b41",
+    "url": "/staffparty_new/static/js/main.23b0cbe3.chunk.js"
   },
   {
     "revision": "14dde945351f9ce2fd8d",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/staffparty_new/static/media/Blacklisted.0e05f4ce.ttf"
   },
   {
-    "revision": "a2e777184b9ac6495052de6151bbef4e",
-    "url": "/staffparty_new/static/media/concert8.a2e77718.jpg"
+    "revision": "f6a87faebf080792930595084ea56812",
+    "url": "/staffparty_new/static/media/CODEBold.f6a87fae.otf"
   },
   {
-    "revision": "0754a87a6aa14ab86abe03e805d71adf",
-    "url": "/staffparty_new/static/media/coolcon.0754a87a.ttf"
+    "revision": "a2e777184b9ac6495052de6151bbef4e",
+    "url": "/staffparty_new/static/media/concert8.a2e77718.jpg"
   },
   {
     "revision": "2080384f31921023ebec42f9420f1357",

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/staffparty_new/static/css/main.9503a9dd.chunk.css",
-    "main.js": "/staffparty_new/static/js/main.d8c72335.chunk.js",
-    "main.js.map": "/staffparty_new/static/js/main.d8c72335.chunk.js.map",
+    "main.css": "/staffparty_new/static/css/main.5e1c76d9.chunk.css",
+    "main.js": "/staffparty_new/static/js/main.23b0cbe3.chunk.js",
+    "main.js.map": "/staffparty_new/static/js/main.23b0cbe3.chunk.js.map",
     "runtime-main.js": "/staffparty_new/static/js/runtime-main.e16c3ca2.js",
     "runtime-main.js.map": "/staffparty_new/static/js/runtime-main.e16c3ca2.js.map",
     "static/js/2.5b591e67.chunk.js": "/staffparty_new/static/js/2.5b591e67.chunk.js",
     "static/js/2.5b591e67.chunk.js.map": "/staffparty_new/static/js/2.5b591e67.chunk.js.map",
     "index.html": "/staffparty_new/index.html",
-    "precache-manifest.8211f0ede7065cf21642cbfeae9e5fc2.js": "/staffparty_new/precache-manifest.8211f0ede7065cf21642cbfeae9e5fc2.js",
+    "precache-manifest.0339e7c58c0dccd28c943b3bd9fea4bf.js": "/staffparty_new/precache-manifest.0339e7c58c0dccd28c943b3bd9fea4bf.js",
     "service-worker.js": "/staffparty_new/service-worker.js",
-    "static/css/main.9503a9dd.chunk.css.map": "/staffparty_new/static/css/main.9503a9dd.chunk.css.map",
+    "static/css/main.5e1c76d9.chunk.css.map": "/staffparty_new/static/css/main.5e1c76d9.chunk.css.map",
     "static/js/2.5b591e67.chunk.js.LICENSE.txt": "/staffparty_new/static/js/2.5b591e67.chunk.js.LICENSE.txt",
     "static/media/Grid.css": "/staffparty_new/static/media/Blacklisted.0e05f4ce.ttf",
+    "static/media/NavBar.css": "/staffparty_new/static/media/CODEBold.f6a87fae.otf",
     "static/media/index.css": "/staffparty_new/static/media/concert8.a2e77718.jpg",
-    "static/media/NavBar.css": "/staffparty_new/static/media/coolcon.0754a87a.ttf",
     "static/media/kingjohnno1.jpg": "/staffparty_new/static/media/kingjohnno1.2080384f.jpg",
     "static/media/kingned1.jpg": "/staffparty_new/static/media/kingned1.014522f8.jpg",
     "static/media/kingned4.jpg": "/staffparty_new/static/media/kingned4.3bfd473a.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.e16c3ca2.js",
     "static/js/2.5b591e67.chunk.js",
-    "static/css/main.9503a9dd.chunk.css",
-    "static/js/main.d8c72335.chunk.js"
+    "static/css/main.5e1c76d9.chunk.css",
+    "static/js/main.23b0cbe3.chunk.js"
   ]
 }
