@@ -41,3 +41,10 @@ a {
 .faPrimary:hover {
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .socialBar svg {
+    margin: -5em 0.5rem;
+    margin-top: 0;
+  }
+}
