@@ -134,10 +134,3 @@
     margin-top: 0;
   }
 }
-
-@media only screen and (max-width: 1600px) {
-  .text {
-    /* margin-top: 4.4rem; */
-    margin-top: 0.85em;
-  }
-}
