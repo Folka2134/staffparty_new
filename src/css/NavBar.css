@@ -1,6 +1,6 @@
 @font-face {
   font-family: navFont;
-  src: url(../fonts/coolcon.ttf);
+  src: url(../fonts/CODEBold.otf);
 }
 
 .navBar {
@@ -21,11 +21,13 @@
 
 .navItem {
   display: inline-block;
-  padding-right: 60px;
+  padding-top: 7px;
+  padding-right: 40px;
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
   font-family: navFont;
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(5px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  animation: fadein 1s;
 }
 
 .navItem:last-child {

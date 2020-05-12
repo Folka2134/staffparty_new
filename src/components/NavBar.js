@@ -7,6 +7,7 @@ const NavBar = () => {
       <ul className="navList">
         <li className="navItem">Home</li>
         <li className="navItem">Merch</li>
+        {/* <li className="navItem">Events</li> */}
         <li className="navItem">Contact</li>
       </ul>
     </nav>

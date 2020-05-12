@@ -23,7 +23,7 @@ const Grid = () => {
           <img alt="staffparty3" src={StaffParty3} />
         </div>
         <div className="gridItem">
-          <img alt="staffparty4" src={StaffParty4} />
+          <img alt="staffparty3" src={StaffParty4} />
         </div>
       </div>
     </Fragment>

@@ -55,10 +55,10 @@ const SocialBar = () => {
             </a>
           </div>
         </li>
-        {/* <li className="socialItem">
+        <li className="socialItem">
           <div className="socialLink">
             <a
-              href="https://open.spotify.com/artist/6JAxkHzLqyjIGVifafbUyd?si=GYwq1RqIRLevVQNynBkaZA"
+              href="https://open.spotify.com/artist/2l0eRRmFwPqWXYok0pLurM?si=KGxJyuqXSLSbfE2zadVf2g"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,7 +67,7 @@ const SocialBar = () => {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="spotify"
-                className="svg-inline--fa fa-spotify fa-w-16 faPrimary faSecondary"
+                className="svg-inline--fa fa-spotify fa-w-16 faPrimary faSecondary test"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
@@ -79,7 +79,32 @@ const SocialBar = () => {
               </svg>
             </a>
           </div>
-        </li> */}
+        </li>
+        <li className="socialItem">
+          <div className="socialLink">
+            <a
+              href="https://staffpartyband.bandcamp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="bandcamp"
+                className="svg-inline--fa fa-bandcamp fa-w-16 faPrimary faSecondary test"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 496 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm48.2 326.1h-181L199.9 178h181l-84.7 156.1z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
   );
